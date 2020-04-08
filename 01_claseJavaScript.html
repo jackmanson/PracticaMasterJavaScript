@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>CursoJavaScript</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+			  crossorigin="anonymous">
+	</script>
+	<script type="text/javascript" src="js/30_jquery.js"></script> 
+	<style type="text/css">
+		div{
+			color: green;
+			width: auto;
+			height: 30px;
+			border: 2px dashed black;
+			margin-top: 10px;
+			background: yellow;
+		}
+
+		.miMargen{
+			margin-left: 30px;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Curso Master JavaScript</h1>
+
+	<p>Primeros pasos con la teroria basica de javascript.</p>
+
+	<ul>
+		<li href="https://www.google.com" title="Google">Google</li>
+		<li href="https://www.yahoo.com" title="Yahoo">Yahoo</li>
+		<li href="https://www.netflix.com" title="Netflix">Netflix</li>
+		<li href="https://www.github.com" title="Gibhub" alt="Github">Gibhub</li>
+	</ul>
+	
+	<a href="#">Jack manson</a>
+
+	<section id="parrafoResultado">
+		<ul>
+			<li>Jack</li>
+			<li class="respuesta">Manson</li>
+		</ul>
+		<span class="respuesta">Respuesta</span>
+	</section>
+	
+
+	
+	<div id="micaja1" class="zebra">Hola soy una caja!</div>
+	<div id="micaja2">La nueva caja esta aquí.</div>
+	<div id="micaja3" class="caballo">Caja de prueba para querySelector.</div>
+
+	<section id="miSeccion1"></section>
+	<section id="miSeccion2"></section>
+
+	<div class="rojo">PRIMERA CLASS ROJO 1</div>
+	<div class="rojo">PRIMERA CLASS ROJO 2</div>
+
+	<p class="parrafo">Parrafo 1</p>
+	<p>Parrafo 2</p>
+	<p>Parrafo 3</p>
+
+	<button onclick="myFunction();">ventana en Blanco</button>
+	<button onclick="myFunction2();">Ventana con contenido</button>
+	<button onclick="myFunction3();">Cambia el texto</button>
+	<br/>
+
+	<button onclick="openWin()">Open "myWindow"</button>
+	<button onclick="closeWin()">Close "myWindow"</button>
+	<button onclick="myFunction4()">Try it</button>
+
+	<a href="02_claseJavaScript.html">siguiente pagina</a>
+
+	<script>
+		function goForward() {// va a la siguiente pagina
+			window.history.forward()
+		}
+	</script>
+	<input type="button" value="Forward" onclick="goForward()">
+
+	
+</body>
+</html>
